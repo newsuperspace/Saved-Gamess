@@ -1,0 +1,74 @@
+[1:58:37] 
+
+----------------------------- New Game Session -----------------------------
+[1:58:46] [2018-03-03T01:58:46.3921426Z][Info][devicescaler] Screen diagonal size : 16.32388
+		Log: 
+[1:58:46] [2018-03-03T01:58:46.3951428Z][Info][devicescaler.rotation] Set rotation to Portrait
+		Log: 
+[1:58:46] [2018-03-03T01:58:46.3961428Z][Info][devicescaler.rotation] Set rotation to Portrait
+		Log: 
+[1:58:46] [2018-03-03T01:58:46.3961428Z][Info][devicescaler] Screen diagonal size : 16.32388
+		Log: 
+[1:58:46] [2018-03-03T01:58:46.3961428Z][Info][devicescaler.rotation] Set rotation to Portrait
+		Log: 
+[1:58:46] [2018-03-03T01:58:46.3961428Z][Info][devicescaler.rotation] Set rotation to Portrait
+		Log: 
+[1:58:49] InvalidOperationException: Steamworks is not initialized.
+		Exception: Steamworks.InteropHelp.TestIfAvailableClient ()
+		Steamworks.SteamUser.GetAuthSessionTicket (System.Byte[] pTicket, Int32 cbMaxTicket, System.UInt32& pcbTicket)
+		SteamManager.Login ()
+		SteamManager.LoginSilently ()
+		PlayFabManager.<LoginSilently>m__1 (.ConnectToServerResult result)
+		PlayFabManager+<ExecuteCloudScriptWithCallBack>c__AnonStoreyC`1[ConnectToServerResult].<>m__1 (PlayFab.ClientModels.ExecuteCloudScriptResult result)
+		PlayFab.Internal.PlayFabHttp+<MakeApiCall>c__AnonStorey0`1[PlayFab.ClientModels.ExecuteCloudScriptResult].<>m__1 ()
+		PlayFab.Internal.PlayFabWww+<MakeApiCall>c__AnonStorey1.<>m__0 (System.String response)
+		UnityEngine.Debug:LogException(Exception)
+		PlayFab.Internal.<MakeApiCall>c__AnonStorey1:<>m__0(String)
+		PlayFab.Internal.<Post>c__Iterator0:MoveNext()
+		UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+		
+[7:39:10] 
+
+----------------------------- New Game Session -----------------------------
+[7:39:28] InvalidOperationException: Steamworks is not initialized.
+		Exception: Steamworks.InteropHelp.TestIfAvailableClient ()
+		Steamworks.SteamUser.GetAuthSessionTicket (System.Byte[] pTicket, Int32 cbMaxTicket, System.UInt32& pcbTicket)
+		SteamManager.Login ()
+		SteamManager.LoginSilently ()
+		PlayFabManager.<LoginSilently>m__1 (.ConnectToServerResult result)
+		PlayFabManager+<ExecuteCloudScriptWithCallBack>c__AnonStoreyC`1[ConnectToServerResult].<>m__1 (PlayFab.ClientModels.ExecuteCloudScriptResult result)
+		PlayFab.Internal.PlayFabHttp+<MakeApiCall>c__AnonStorey0`1[PlayFab.ClientModels.ExecuteCloudScriptResult].<>m__1 ()
+		PlayFab.Internal.PlayFabWww+<MakeApiCall>c__AnonStorey1.<>m__0 (System.String response)
+		UnityEngine.Debug:LogException(Exception)
+		PlayFab.Internal.<MakeApiCall>c__AnonStorey1:<>m__0(String)
+		PlayFab.Internal.<Post>c__Iterator0:MoveNext()
+		UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+		
+[7:39:28] InvalidOperationException: Steamworks is not initialized.
+		Exception: Steamworks.InteropHelp.TestIfAvailableClient ()
+		Steamworks.SteamUser.GetAuthSessionTicket (System.Byte[] pTicket, Int32 cbMaxTicket, System.UInt32& pcbTicket)
+		SteamManager.Login ()
+		PlayFabManager.<Login>m__0 (.ConnectToServerResult result)
+		PlayFabManager+<ExecuteCloudScriptWithCallBack>c__AnonStoreyC`1[ConnectToServerResult].<>m__1 (PlayFab.ClientModels.ExecuteCloudScriptResult result)
+		PlayFab.Internal.PlayFabHttp+<MakeApiCall>c__AnonStorey0`1[PlayFab.ClientModels.ExecuteCloudScriptResult].<>m__1 ()
+		PlayFab.Internal.PlayFabWww+<MakeApiCall>c__AnonStorey1.<>m__0 (System.String response)
+		UnityEngine.Debug:LogException(Exception)
+		PlayFab.Internal.<MakeApiCall>c__AnonStorey1:<>m__0(String)
+		PlayFab.Internal.<Post>c__Iterator0:MoveNext()
+		UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+		
+[7:39:54] The file 'E:/迅雷下载/Pathfinder.Adventures.Obsidian.Edition.Build.20171116.CHS.2.7-ALI213/Pathfinder Adventures/PathfinderAdventures_Data/resources.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+		Error: 
+[7:39:54] Mismatched serialization in the builtin class 'TextAsset'. (Read 90200 bytes but expected 90152 bytes)
+		Error: 
+[7:40:00] The file 'E:/迅雷下载/Pathfinder.Adventures.Obsidian.Edition.Build.20171116.CHS.2.7-ALI213/Pathfinder Adventures/PathfinderAdventures_Data/resources.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+		Error: 
+[7:40:00] Mismatched serialization in the builtin class 'TextAsset'. (Read 86748 bytes but expected 86716 bytes)
+		Error: 
+[7:40:33] The file 'E:/迅雷下载/Pathfinder.Adventures.Obsidian.Edition.Build.20171116.CHS.2.7-ALI213/Pathfinder Adventures/PathfinderAdventures_Data/resources.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+		Error: 
+[7:40:33] Mismatched serialization in the builtin class 'TextAsset'. (Read 12148 bytes but expected 12144 bytes)
+		Error: 
